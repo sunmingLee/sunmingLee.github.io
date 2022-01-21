@@ -8,10 +8,10 @@ categories :
 #  - [Java]
 
 toc : true
-toc_sticky : false
+toc_sticky : true
 
 date: 2022-01-20
-#last_modified_at: 2020-05-25
+last_modified_at: 2022-01-21
 ---
 
 <span style="color : gray">처음 써보는 기술블로그이자 첫 번째 포스트...!!  
@@ -57,13 +57,12 @@ date: 2022-01-20
 ~~딱히 쓸게 없네~~
 
 ## 4. 캡슐화(Encapsulation)
-Singleton 디자인 패턴  
-: 객체의 인스턴스가 오직 1개만 생성되는 패턴.(객체의 생성을 제한.)
++ Singleton 디자인 패턴  
+객체의 인스턴스가 오직 1개만 생성되는 패턴(객체의 생성을 제한한다).
 
-<span style="color: gray">아직 singleton 패턴을 사용해보지 않아서 이후에 추가 작성하겠다.</span>
+    <span style="color: gray">아직 singleton 패턴을 사용해보지 않아서 이후에 추가 작성하겠다.</span>
 
 
-
-참고 : https://velog.io/@sungsuzi/oop%EC%9D%98-4%EA%B0%80%EC%A7%80-%ED%8A%B9%EC%A7%95
+참고 : [velog.io/@sungsuzi/oop의-4가지-특징](https://velog.io/@sungsuzi/oop%EC%9D%98-4%EA%B0%80%EC%A7%80-%ED%8A%B9%EC%A7%95)
 
 

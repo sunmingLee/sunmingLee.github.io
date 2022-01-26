@@ -6,7 +6,6 @@ title : "Posts by Category"
 #toc_lable : "MYSELF"
 ---
 
-- Algorithm
+- Problem Solving
 - CS
-- Error
 - Blog

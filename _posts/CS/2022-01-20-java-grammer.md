@@ -12,7 +12,7 @@ tags :
 toc : true
 toc_sticky : true
 
-last_modified_at: 2022-01-21
+last_modified_at: 2022-01-26
 ---
 
 <span style="color : gray">처음 써보는 기술블로그이자 첫 번째 포스트...!!  
@@ -60,11 +60,33 @@ last_modified_at: 2022-01-21
 ~~딱히 쓸게 없네~~
 
 ## 4. 캡슐화(Encapsulation)
-+ Singleton 디자인 패턴  
+**Singleton 디자인 패턴**  
+
 객체의 인스턴스가 오직 1개만 생성되는 패턴(객체의 생성을 제한한다).
 
-    <span style="color: gray">아직 singleton 패턴을 사용해보지 않아서 이후에 추가 작성하겠다.</span>
+~~<span style="color: gray">아직 singleton 패턴을 사용해보지 않아서 이후에 추가 작성하겠다.</span>~~
 
+객체가 여러개 만들어질 필요가 없거나 1개만 만들어져야 할 경우, 싱글톤 디자인 패턴을 적용시킨다.
+
+방법은 여러가지가 있다고 하지만 내가 배운건 가장 간단한 방법.<br>
+아래의 예시를 살펴보자.
+
+```java
+private static BookManagerImpl bookManager = new BookManagerImpl();
+
+private BookManagerImpl() {
+
+}
+
+public static BookManagerImpl getBookManager() {
+    return bookManager;
+}
+```
+기본생성자의 접근제어자를 private으로 설정해 외부에서 BookManagerImpl 객체를 생성하지 못하게 하고,
+getBookManager 메서드(getter)를 통해 private 변수인 bookManager를 호출하도록 하는 것.  
+이 때, 객체 없이 외부에서 접근할 수 있도록 변수와 getter에 static을 붙인다.  
+
+<br><br><br><br><br>
 
 참고 : [velog.io/@sungsuzi/oop의-4가지-특징](https://velog.io/@sungsuzi/oop%EC%9D%98-4%EA%B0%80%EC%A7%80-%ED%8A%B9%EC%A7%95)
 

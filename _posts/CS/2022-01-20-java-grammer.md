@@ -1,6 +1,6 @@
 ---
 #permalink : 
-title : "객체지향언어의 특징"
+title : "자바 기초문법(1) - 객체지향언어의 특징"
 excerpt : 기초 문법 중 내가 몰랐던, 혹은 까먹었던 부분들만 적어보겠다.
 
 categories : 
